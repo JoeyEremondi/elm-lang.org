@@ -243,13 +243,16 @@ improving upon Haskell&rsquo;s `($)`.
 let n = 42
     (a,b) = (3,4)
     {x,y} = { x=3, y=4 }
+    square : Int -> Int
     square n = n * n
 in
     square a + square b
 ```
 
 Let-expressions are indentation sensitive.
-Each definition should align with the one above it.
+Each definition should align with the one above it. 
+Type-annotations can be added to functions or single variables declared in a let-expression.
+
 
 ### Applying Functions
 
